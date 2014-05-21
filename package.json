@@ -1,0 +1,35 @@
+{
+  "name": "fis-postpackager-xmodjs",
+  "version": "0.0.2",
+  "description": "a postpackager plugin for fis to process map.json and create map.js for modjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/darkfe/fis-postpackager-xmodjs"
+  },
+  "keywords": [
+    "fis",
+    "postpackager",
+    "package",
+    "modjs"
+  ],
+  "author": {
+    "name": "fouber"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/darkfe/fis-postpackager-xmodjs/issues"
+  },
+  "readme": "# fis-postpackager-modjs\n\na postpackager plugin for fis to process map.json and create map.js for modjs\n\n## usage\n\n    $ npm install -g fis-postpackager-modjs\n    $ vi path/to/project/fis-conf.js\n\n```javascript\n//file : path/to/project/fis-conf.js\nfis.config.set('modules.postpackager', 'modjs');\n//settings\nfis.config.set('settings.postpackager.modjs.subpath', 'pack/map.js');\n```",
+  "readmeFilename": "README.md",
+  "_id": "fis-postpackager-xmodjs@0.0.2",
+  "dist": {
+    "shasum": "a713aa3ca116272574e535eae23169243fca3ea4"
+  },
+  "_resolved": "git://github.com/darkfe/fis-postpackager-xmodjs#046b161395cb4b69f5e1ae65eb8476e964b45ebb",
+  "_from": "git://github.com/darkfe/fis-postpackager-xmodjs",
+  "_fromGithub": true
+}
